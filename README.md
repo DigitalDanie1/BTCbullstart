@@ -24,3 +24,9 @@ The supplied repository contains no `/api/btc` implementation or original React 
 Current-price comparisons include an unfinished candle and do not establish a confirmed daily-close break. Historical chart peaks are hindsight labels, not executable sell signals. This change clarifies those distinctions; it does not revalidate the historical strategy, externally supplied event notes, or all existing analytics.
 
 Deploy `index.html`, `decision.mjs`, and `enhancements.css` together. No new build dependencies are required.
+
+## Overheating indicators
+
+`data/overheating.mjs` contains the user-supplied daily records for 2026-09-01 through 2026-09-22, their provenance and the source author's thresholds. `overheating.mjs` renders the dated section with a date selector, four trend charts, ranking states, original records, and date-scoped CSV export. `overheating.css` contains scoped presentation rules. Deploy these three files with the existing static files. This is a manually maintained snapshot, not a live data source; do not advance its date without new observations.
+
+Run the complete check suite with `node --test tests/*.test.mjs`.
