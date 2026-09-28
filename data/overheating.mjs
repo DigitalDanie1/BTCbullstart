@@ -80,3 +80,18 @@ export function toCsv(selectedRows) {
   const header=['일자',...metrics.map(m=>m.label),'비트코인 가격(KRW)','원본 비고(미검증)'];
   return '\uFEFF'+[header,...selectedRows.map(row=>[row.date,...metrics.map(m=>formatValue(m,row)),row.btcKrw,row.note])].map(line=>line.map(escape).join(',')).join('\r\n');
 }
+
+export const originalReport = {
+  date: '2026-09-22', title: '과열지표 (260922 화요일)',
+  items: [
+    '업비트 앱 순위는 순위권 없음, 여전히 하위권 유지 중이며 일반 참여자들은 크립토 시장 외면.',
+    '빗썸 앱 순위는 순위권 없음, 여전히 하위권 유지 중이며 일반 참여자들은 크립토 시장 외면.',
+    '디시인사이드 비트코인 순위는 40위 기록 중.',
+    '코인베이스 앱 순위 업데이트 未.',
+    '김치프리미엄 -0.89 포인트 기록 중.',
+    '비트코인 도미넌스는 59.71 포인트 기록 중.',
+    'MVRV-Z-SCORE는 1.12 포인트 기록 중. 236일만에 1.00포인트 상향 돌파.',
+    '크립토공포탐욕지수 78 포인트 기록 중.'
+  ],
+  purpose: 'PS. 과열지표는 쉽지 않겠지만 크립토 사이클의 과열 및 정점 부근이 언제쯤일지 예상하기 위해 매일 Follow up 중인 데이터입니다.'
+};

@@ -1,4 +1,4 @@
-import {rows,metrics,provenance,severity,formatValue,deltaText,visibleRows,toCsv} from './data/overheating.mjs';
+import {rows,metrics,provenance,originalReport,severity,formatValue,deltaText,visibleRows,toCsv} from './data/overheating.mjs';
 export function createOverheating(React) {
   const e=React.createElement;
   const names={below:'기준 미도달',watch:'주의',danger:'위험',unknown:'판정 보류'};
@@ -48,6 +48,7 @@ export function createOverheating(React) {
         e('div',{className:'oh-scroll',tabIndex:0,'aria-label':'과열지표 날짜별 원본 기록'},e('table',null,e('caption',null,'선택 기준일까지의 제공 기록 · 비고의 사건은 외부 검증 전'),
           e('thead',null,e('tr',null,['일자',...metrics.map(m=>m.label),'BTC 가격(KRW)','원본 비고'].map(label=>e('th',{key:label,scope:'col'},label)))),
           e('tbody',null,[...data].reverse().map(row=>e('tr',{key:row.date},e('th',{scope:'row'},row.date),...metrics.map(m=>e('td',{key:m.key},formatValue(m,row))),e('td',null,`₩${row.btcKrw.toLocaleString('ko-KR')}`),e('td',{className:'oh-note'},row.note||'—'))))))),
+      date===originalReport.date?e('details',{className:'oh-details oh-report',open:true},e('summary',null,'9월 22일 원문 메모'),e('p',{className:'oh-footnote'},'사용자 제공 원문 · 시장 해석과 기간 설명은 원문 작성자의 견해입니다. 원문의 ‘포인트’ 표현은 보존했으며, 지표 카드의 % 단위는 첨부 표를 따릅니다.'),e('h3',null,originalReport.title),e('ol',null,originalReport.items.map((text,i)=>e('li',{key:i},text))),e('p',null,originalReport.purpose),e('h4',null,'Reference'),e('ul',null,provenance.references.map(source=>e('li',{key:source},source)))):null,
       e('details',{className:'oh-details'},e('summary',null,'출처와 판단 기준'),e('p',null,`${provenance.source}. 제공 범위: ${provenance.periodStart}–${provenance.asOf}. ${provenance.verifiedAgainst}.`),
         e('p',null,'주의·위험 기준은 첨부 표의 작성자 기준입니다. 상향 돌파는 초과(>), 하향 돌파는 미만(<), 순위권 진입은 10위 이내로 적용합니다. 현재 값의 기준 충족 상태이며 당일 돌파 사건이나 종합 투자점수가 아닙니다.'),
         e('ul',null,provenance.limitations.map(text=>e('li',{key:text},text))),e('p',null,`원본 표의 Reference: ${provenance.references.join(' · ')}`))
