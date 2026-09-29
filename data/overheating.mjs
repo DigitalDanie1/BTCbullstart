@@ -1,8 +1,9 @@
+import {daily} from './daily-overheating.mjs?v=20260929';
 // Transcribed from the user's 2026-09-22 table; values are observations, not live feeds.
 export const provenance = {
-  title: '과열지표', asOf: '2026-09-22', periodStart: '2026-09-01',
-  source: '사용자 제공 과열지표 이미지 및 2026-09-22 설명',
-  verifiedAgainst: '제공 이미지와 대조; 외부 원천 데이터는 별도 검증하지 않음',
+  title: '과열지표', asOf: daily.through, periodStart: '2026-09-01',
+  source: '9월 1–22일 사용자 원본 · 9월 23일부터 공식 API 수집',
+  verifiedAgainst: '추가 기록은 CoinMarketCap 공포탐욕 API 및 업비트 UTC 일봉. 기존 원본과 관측 시각이 다를 수 있음',
   references: ['구글앱스토어', '디시인사이드', 'Coinbase App Rank Bot', 'Cryprice.com', 'TradingView', 'Lookintobitcoin.com', 'CoinMarketCap', '업비트'],
   limitations: [
     '앱 순위의 국가·카테고리·집계 시각과 순위권 범위가 제공되지 않았습니다.',
@@ -51,7 +52,8 @@ export const rows = raw.map(([day,bithumb,dc,coinbase,premium,dominance,mvrv,fea
   upbit:null,upbitStatus:'unranked',bithumb,bithumbStatus:bithumb===null?'unranked':'observed',
   dc,dcStatus:'observed',coinbase,coinbaseStatus:coinbase===null?'missing':'observed',
   premium,dominance,mvrv,fear,btcKrw,note
-}));
+})).concat(daily.rows);
+export {daily};
 export function severity(metric,row) {
   const status=row[metric.key+'Status'];
   if(status==='unranked') return 'below';
