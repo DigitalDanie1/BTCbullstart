@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {rows,metrics,severity,formatValue,deltaText,visibleRows,toCsv} from '../data/overheating.mjs';
+import {rows as allRows,metrics,severity,formatValue,deltaText,visibleRows,toCsv} from '../data/overheating.mjs';
+const rows=allRows.filter(r=>r.date<='2026-09-22');
 const get=key=>metrics.find(m=>m.key===key);
 test('all 22 dates are contiguous and unique; latest row matches supplied summary',()=>{
  assert.equal(rows.length,22); assert.equal(new Set(rows.map(r=>r.date)).size,22);
@@ -36,4 +37,10 @@ test('date selection bounds charts, records and CSV to the same rows',()=>{
  assert.ok(csv.includes('2026-09-11'));assert.ok(!csv.includes('2026-09-12'));
  assert.ok(csv.includes('순위권 없음'));assert.ok(csv.includes('500위'));
  assert.equal(visibleRows('2026-09-01').length,1);
+});
+
+test('API extension preserves missing observations and dated provenance',()=>{
+const added=allRows.filter(r=>r.date>'2026-09-22');assert.ok(added.length>=7);
+for(const row of added){for(const key of ['upbit','bithumb','dc','coinbase'])assert.equal(row[key+'Status'],'missing');for(const key of ['premium','dominance','mvrv'])assert.equal(row[key],null);for(const key of ['fear','btcKrw'])if(Number.isFinite(row[key])){assert.ok(row.sources[key].url.startsWith('https://'));assert.equal(row.sources[key].observedAt.slice(0,10),row.date);}}
+assert.equal(allRows.filter(r=>r.date==='2026-09-29').length,1);
 });
