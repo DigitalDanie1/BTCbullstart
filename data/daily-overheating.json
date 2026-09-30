@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-09-29T08:07:35.420Z",
-  "through": "2026-09-29",
+  "checkedAt": "2026-09-30T02:12:42.649Z",
+  "through": "2026-09-30",
   "timezone": "UTC",
   "failures": [],
   "rows": [
@@ -25,13 +25,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-23T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-23T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -57,13 +57,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-24T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-24T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -89,13 +89,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-25T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-25T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -121,13 +121,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-26T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-26T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -153,13 +153,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-27T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-27T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -185,13 +185,13 @@
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
           "observedAt": "2026-09-28T00:00:00.000Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
           "observedAt": "2026-09-28T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": false
         }
       }
@@ -210,20 +210,52 @@
       "premium": null,
       "dominance": null,
       "mvrv": null,
-      "fear": 69,
-      "btcKrw": 114003000,
+      "fear": 68,
+      "btcKrw": 113587000,
+      "note": "원본 집계 기준과 날짜별 수치가 확인되지 않은 항목은 미제공",
+      "sources": {
+        "fear": {
+          "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/historical?limit=500",
+          "observedAt": "2026-09-29T00:00:00.000Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
+          "provisional": false
+        },
+        "btcKrw": {
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
+          "observedAt": "2026-09-29T00:00:00Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
+          "provisional": false
+        }
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "no": 445,
+      "upbit": null,
+      "upbitStatus": "missing",
+      "bithumb": null,
+      "bithumbStatus": "missing",
+      "dc": null,
+      "dcStatus": "missing",
+      "coinbase": null,
+      "coinbaseStatus": "missing",
+      "premium": null,
+      "dominance": null,
+      "mvrv": null,
+      "fear": 67,
+      "btcKrw": 113365000,
       "note": "원본 집계 기준과 날짜별 수치가 확인되지 않은 항목은 미제공",
       "sources": {
         "fear": {
           "url": "https://pro-api.coinmarketcap.com/public-api/v3/fear-and-greed/latest",
-          "observedAt": "2026-09-29T07:53:10.044Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "observedAt": "2026-09-30T02:08:10.034Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": true
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-09-30T00:00:00.000Z",
-          "observedAt": "2026-09-29T00:00:00Z",
-          "retrievedAt": "2026-09-29T08:07:35.420Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-01T00:00:00.000Z",
+          "observedAt": "2026-09-30T00:00:00Z",
+          "retrievedAt": "2026-09-30T02:12:42.649Z",
           "provisional": true
         }
       }
