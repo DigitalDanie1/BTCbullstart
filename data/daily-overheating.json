@@ -1,8 +1,11 @@
 {
-  "checkedAt": "2026-10-14T00:00:03.487Z",
-  "through": "2026-10-14",
+  "checkedAt": "2026-10-15T02:00:57.241Z",
+  "through": "2026-10-15",
   "timezone": "UTC",
-  "failures": [],
+  "failures": [
+    "Error: fear: HTTP 429",
+    "Error: latest: HTTP 429"
+  ],
   "rows": [
     {
       "date": "2026-09-23",
@@ -29,9 +32,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-23T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -61,9 +64,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-24T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -93,9 +96,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-25T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -125,9 +128,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-26T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -157,9 +160,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-27T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -189,9 +192,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-28T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -221,9 +224,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-29T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -253,9 +256,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-09-30T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -285,9 +288,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-01T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -317,9 +320,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-02T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -349,9 +352,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-03T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -381,9 +384,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-04T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -413,9 +416,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-05T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -445,9 +448,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-06T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -477,9 +480,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-07T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -509,9 +512,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-08T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -541,9 +544,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-09T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -573,9 +576,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-10T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -605,9 +608,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-11T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -637,9 +640,9 @@
           "provisional": false
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-12T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -669,9 +672,9 @@
           "provisional": true
         },
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-13T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": false
         }
       }
@@ -691,13 +694,39 @@
       "dominance": null,
       "mvrv": null,
       "fear": null,
-      "btcKrw": 112593000,
+      "btcKrw": 110338000,
       "note": "원본 집계 기준과 날짜별 수치가 확인되지 않은 항목은 미제공",
       "sources": {
         "btcKrw": {
-          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-15T00:00:00.000Z",
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
           "observedAt": "2026-10-14T00:00:00Z",
-          "retrievedAt": "2026-10-14T00:00:03.487Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
+          "provisional": false
+        }
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "no": 460,
+      "upbit": null,
+      "upbitStatus": "missing",
+      "bithumb": null,
+      "bithumbStatus": "missing",
+      "dc": null,
+      "dcStatus": "missing",
+      "coinbase": null,
+      "coinbaseStatus": "missing",
+      "premium": null,
+      "dominance": null,
+      "mvrv": null,
+      "fear": null,
+      "btcKrw": 110610000,
+      "note": "원본 집계 기준과 날짜별 수치가 확인되지 않은 항목은 미제공",
+      "sources": {
+        "btcKrw": {
+          "url": "https://api.upbit.com/v1/candles/days?market=KRW-BTC&count=200&to=2026-10-16T00:00:00.000Z",
+          "observedAt": "2026-10-15T00:00:00Z",
+          "retrievedAt": "2026-10-15T02:00:57.241Z",
           "provisional": true
         }
       }
