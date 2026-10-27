@@ -1,4 +1,4 @@
-import {rows,daily,metrics,provenance,originalReport,severity,formatValue,deltaText,visibleRows,toCsv} from './data/overheating.mjs?v=20261026020902900';
+import {rows,daily,metrics,provenance,originalReport,severity,formatValue,deltaText,visibleRows,toCsv} from './data/overheating.mjs?v=20261027010036262';
 export function createOverheating(React) {
   const e=React.createElement;
   const names={below:'기준 미도달',watch:'주의',danger:'위험',unknown:'판정 보류'};
