@@ -1,4 +1,4 @@
-import {daily} from './daily-overheating.mjs?v=20261124030616662';
+import {daily} from './daily-overheating.mjs?v=20261125020513809';
 // Transcribed from the user's 2026-09-22 table; values are observations, not live feeds.
 export const provenance = {
   title: '과열지표', asOf: daily.through, periodStart: '2026-09-01',
